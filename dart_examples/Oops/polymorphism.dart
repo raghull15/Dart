@@ -9,11 +9,7 @@ class Player {
 
 class Batsman extends Player {
   Batsman(super.name);
-
-  @override
-  void play() {
-    print('$name is batting');
-  }
+  
 }
 
 class Bowler extends Player {
